@@ -1,6 +1,6 @@
 table {
 
-    background-color: aqua; 
+    background-color: rgb(159, 12, 227); 
     
     padding: 5px; 
     border: 5px solid black; 
@@ -95,14 +95,6 @@ body, html {
     padding: 0;
 }
 
-/* Center content horizontally */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
 
 /* Style the form container */
 form {
@@ -139,4 +131,98 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #0056b3;
+}
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.article header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.article h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.article .author {
+    font-style: italic;
+}
+
+.article time {
+    font-size: 14px;
+    color: #666;
+}
+
+.article .content p {
+    margin-bottom: 10px;
+}
+/* styles.css */
+
+
+#djTable {
+    width: 40%;
+    margin: 20px auto;
+    border-collapse: collapse; /* Collapse border spacing */
+}
+
+#djTable th, #djTable td {
+    border: 1px solid #f1efef; /* Add borders */
+    padding: 8px; /* Add padding */
+    text-align: left; /* Align text to the left */
+}
+
+#djTable th {
+    background-color: #604bb5; /* Add background color to header row */
+}
+
+#djTable tbody tr:nth-child(even) {
+    background-color: #d026e6; /* Alternate row color */
+}
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd; /* Add border to the table */
+}
+
+th, td {
+    padding: 10px; /* Add padding to table headers and cells */
+    border: 1px solid #ddd; /* Add borders to table headers and cells */
+}
+
+th {
+    background-color: #f2f2f2; /* Different background color for table headers */
+    color: #333; /* Different font color for table headers */
+}
+
+tr:hover {
+    background-color: #f9f9f9; /* Hover background color for table rows */
+}
+
+tr:hover td {
+    color: #333; /* Hover text color for table data cells */
 }
