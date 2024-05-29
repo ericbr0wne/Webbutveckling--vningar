@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+Exercise 2: Style the image gallery using the CSS Box Model
+
+Create an external CSS file to style the image gallery from
+ the previous HTML exercise. Use
+the CSS Box Model properties such as padding, margin, 
+and border to create a visually
+appealing image gallery. Add padding and margin between 
+images, and give the images a
+border.
+
+
+
+
+Exercise 3: Style a form using the CSS Box Model
+create an external CSS file to style a form. Use the 
+CSS Box Model properties to create a
+visually appealing form. Add padding and margin to form elements, 
+and give form elements
+a border.
