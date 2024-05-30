@@ -1,0 +1,44 @@
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.article header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.article h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.article .author {
+    font-style: italic;
+}
+
+.article time {
+    font-size: 14px;
+    color: #666;
+}
+
+.article .content p {
+    margin-bottom: 10px;
+}
+
+
+
