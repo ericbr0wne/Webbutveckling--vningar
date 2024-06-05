@@ -1,14 +1,21 @@
 
 body {
     background-color: rgb(71, 1, 51);
-    margin: 0;
-    padding: 0;
+    margin: 0; 
+    padding: 0; 
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center; 
     align-items: center;
-    height: 100vh;
-    color: white;
+    height: 100vh; 
+    overflow: hidden;
+    color: white; 
+}
+
+div img {
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    padding: 1px;
 }
 
 
@@ -22,6 +29,7 @@ header {
     position: fixed;
     top: 50px;
 }
+
 
 nav {
     display: flex;

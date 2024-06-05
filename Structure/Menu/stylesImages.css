@@ -1,7 +1,7 @@
 div img {
     border: 2px solid black;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     padding: 1px;
 }
 
@@ -37,9 +37,9 @@ body {
 
 .spotify-player {
     position: fixed; 
-    width: 50%; 
+    width: 20%; 
     height: 80px; 
-    top: 600px;
+    top: 900px;
 }
 footer {
   
@@ -69,7 +69,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 0px; /* Adjust to push content below the header */
+    margin-top: 0px; 
 }
 
 nav ul {
