@@ -1,0 +1,4 @@
+My data is in this text doc. 
+Name: Eric
+Age: 40
+Species: Human

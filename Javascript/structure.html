@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sum of Multiples of 3 and 5</title>
+</head>
+<body>
+    <h1>Sum of Multiples of 3 and 5</h1>
+    <p id="result"></p>
+
+    <script>
+        // Hardcoded number
+        const hardcodedNumber = 10; 
+        
+        // Function to calculate the sum of multiples of 3 and 5 up to a given number
+        function addNumbers(num) {
+            let total = 0; 
+            for (let i = 1; i <= num; i++) {
+                if (i % 3 === 0 || i % 5 === 0) { 
+                    total += i; 
+                }
+            }
+            return total; 
+        }
+
+        // Calculate the result using the hardcoded number
+        const result = addNumbers(hardcodedNumber); 
+
+        // Display the result
+        document.getElementById('result').innerText = `The sum of multiples of 3 and 5 up to ${hardcodedNumber} is: ${result}`;
+    </script>
+</body>
+</html>
