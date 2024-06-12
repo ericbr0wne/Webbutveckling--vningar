@@ -1,3 +1,4 @@
+//Exercise1
 function addNumbers(num) {
     let total = 0; 
     for (let i = 1; i <= num; i++) {
@@ -9,3 +10,13 @@ function addNumbers(num) {
     return total; 
 }
 
+//Exercise2
+
+
+//Exercise3
+
+
+//Exercise4
+
+
+//Exercise5
