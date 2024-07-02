@@ -27,7 +27,7 @@ for (let bottles = 99; bottles > 0; bottles--) {
         `Take one down and pass it around, ${bottles - 1} bottles of beer on the wall.`
       );
     }
-    console.log(""); // Add an empty line between verses
+    console.log(""); 
   }
   
   console.log("No more bottles of beer on the wall, no more bottles of beer.");
