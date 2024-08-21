@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Clicker</title>
+  <style>
+    .color-box {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    #red {
+      background-color: red;
+    }
+
+    #green {
+      background-color: green;
+    }
+
+    #blue {
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="red" class="color-box"></div>
+  <div id="green" class="color-box"></div>
+  <div id="blue" class="color-box"></div>
+
+  <p id="colorDisplay">Click a color!</p>
+
+  <script>
+    const colorBoxes = document.querySelectorAll('.color-box');
+    const colorDisplay = document.getElementById('colorDisplay');
+
+    colorBoxes.forEach(box => {
+      box.addEventListener('click', () => {
+        const clickedColor = box.id;
+        colorDisplay.textContent = `You clicked ${clickedColor}!`;
+      });
+    });
+  </script>
+
+</body>
+</html>
